@@ -1,0 +1,23 @@
+<div>
+    <h2>Media Facens</h2>
+  
+    <label for="ac1">AC1:</label>
+    <input type="number" [(ngModel)]="ac1" id="ac1" min="0" max="10">
+  
+    <label for="ac2">AC2:</label>
+    <input type="number" [(ngModel)]="ac2" id="ac2" min="0" max="10">
+  
+    <label for="ag">AG:</label>
+    <input type="number" [(ngModel)]="ag" id="ag" min="0" max="10">
+  
+    <label for="af">AF:</label>
+    <input type="number" [(ngModel)]="af" id="af" min="0" max="10">
+  
+    <button (click)="calcularMedia()">Calcular</button>
+  
+    <div *ngIf="resultado !== undefined">
+      <p *ngIf="resultado !== 'Informe notas válidas (entre 0 e 10) para todas as avaliações.'">Media: {{ media.toFixed(2) }}</p>
+      <p>Resultado: {{ resultado }}</p>
+    </div>
+  </div>
+  
