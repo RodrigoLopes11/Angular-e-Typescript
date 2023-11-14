@@ -8,7 +8,7 @@ import { CommonModule } from '@angular/common';
 })
 
 export class ApoliceSeguroComponent implements OnInit{
-  nomeSegurado: string|any;
+  nomeSeguro: string|any;
   sexo: string|any;
   idade: number|any;
   valorAutomovel: number|any;
