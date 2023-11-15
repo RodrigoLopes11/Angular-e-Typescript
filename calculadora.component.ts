@@ -5,6 +5,8 @@ import { Component,OnInit } from '@angular/core';
   templateUrl: './calculadora.component.html',
   styleUrls: ['./calculadora.component.css']
 })
+  ngOnInit(){
+}
 export class CalculadoraComponent {
   number1: number|any;
   number2: number|any;
