@@ -5,6 +5,8 @@ import { Component } from '@angular/core';
   templateUrl: './cadastro-aluno.component.html',
   styleUrls: ['./cadastro-aluno.component.css']
 })
+  ngOnInit(){
+}
 export class CadastroAlunoComponent{
   aluno = {
     ra: '',
