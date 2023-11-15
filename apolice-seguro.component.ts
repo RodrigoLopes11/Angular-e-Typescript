@@ -6,7 +6,8 @@ import { CommonModule } from '@angular/common';
   templateUrl: './apolice-seguro-form.component.html',
   styleUrls: ['./apolice-seguro-form.component.css']
 })
-
+ngOnInit(){
+}
 export class ApoliceSeguroComponent implements OnInit{
   nomeSeguro: string|any;
   sexo: string|any;
