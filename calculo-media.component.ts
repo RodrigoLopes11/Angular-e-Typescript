@@ -6,7 +6,8 @@ import { Component, OnInit} from '@angular/core';
   styleUrls: ['./calculo-media.component.css']
 })
 
-
+ngOnInit(){
+}
 export class CalculoMediaComponent implements OnInit {
   ac1: number|any;
   ac2: number|any;
